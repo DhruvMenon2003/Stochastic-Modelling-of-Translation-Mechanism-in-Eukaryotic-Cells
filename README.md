@@ -6,7 +6,7 @@ This project aims to simulate the translation process in eukaryotic cells, focus
 
 # Background
 
-The genetic code's degeneracy allows multiple codons to encode the same amino acid. However, synonymous codons are not utilized uniformly; this phenomenon is known as codon usage bias. Rare codons can slow translation, affecting co-translational protein folding and potentially leading to misfolded proteins.
+The genetic code's degeneracy allows multiple codons to encode the same amino acid. However, synonymous codons are not utilized uniformly; this phenomenon is known as codon usage bias. Rare codons can slow translation, affecting co-translational protein folding and potentially leading to misfolded proteins.[1]
 
 # Notably, proteins with higher intrinsic disorder tendencies are more susceptible to the effects of codon usage bias. The IUPred2A tool can predict such intrinsically disordered regions from amino acid sequences[2]
 # Objectives
@@ -16,7 +16,7 @@ Analyze Folding Outcomes: Assess the impact of rare codon frequency on protein f
 Optimize Parameters: Determine optimal sequence lengths and rare codon thresholds to predict folding outcomes accurately.
 # Methodology
 
-# Codon Probability Matrix: Utilize empirical codon probabilities to reflect natural codon usage. These probabilities are normalized to sum to one, ensuring they represent valid probabilities.[1]
+# Codon Probability Matrix: Utilize empirical codon probabilities to reflect natural codon usage. These probabilities are normalized to sum to one, ensuring they represent valid probabilities.[3]
 
 # Sequence Generation: Generate random mRNA sequences based on the codon probability matrix. This stochastic approach mirrors the natural variability in mRNA sequences.
 
