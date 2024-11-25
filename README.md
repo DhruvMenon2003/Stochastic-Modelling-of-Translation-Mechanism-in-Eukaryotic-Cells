@@ -8,8 +8,7 @@ This project aims to simulate the translation process in eukaryotic cells, focus
 
 The genetic code's degeneracy allows multiple codons to encode the same amino acid. However, synonymous codons are not utilized uniformly; this phenomenon is known as codon usage bias. Rare codons can slow translation, affecting co-translational protein folding and potentially leading to misfolded proteins.
 
-# Notably, proteins with higher intrinsic disorder tendencies are more susceptible to the effects of codon usage bias. The IUPred2A tool can predict such intrinsically disordered regions from amino acid sequences.
-
+# Notably, proteins with higher intrinsic disorder tendencies are more susceptible to the effects of codon usage bias. The IUPred2A tool can predict such intrinsically disordered regions from amino acid sequences[2]
 # Objectives
 
 Simulate Translation: Model the translation process, incorporating codon usage probabilities to generate mRNA sequences.
@@ -17,7 +16,7 @@ Analyze Folding Outcomes: Assess the impact of rare codon frequency on protein f
 Optimize Parameters: Determine optimal sequence lengths and rare codon thresholds to predict folding outcomes accurately.
 # Methodology
 
-# Codon Probability Matrix: Utilize empirical codon probabilities to reflect natural codon usage. These probabilities are normalized to sum to one, ensuring they represent valid probabilities.
+# Codon Probability Matrix: Utilize empirical codon probabilities to reflect natural codon usage. These probabilities are normalized to sum to one, ensuring they represent valid probabilities.[1]
 
 # Sequence Generation: Generate random mRNA sequences based on the codon probability matrix. This stochastic approach mirrors the natural variability in mRNA sequences.
 
@@ -35,3 +34,7 @@ No Protein: Sequence lacks either start or stop codons.
 
 Simplifications: The model does not account for factors like temperature, pH, or chaperone proteins, which also influence protein folding.
 Future Enhancements: Incorporating additional biological factors and refining the codon probability matrix with more comprehensive data could improve model accuracy.
+# References
+[1]Liu, Y. A code within the genetic code: codon usage regulates co-translational protein folding. Cell Commun Signal 18, 145 (2020). https://doi.org/10.1186/s12964-020-00642-6
+[2]https://iupred2a.elte.hu/ 
+[3]Yoon BJ. Hidden Markov Models and their Applications in Biological Sequence Analysis. Curr Genomics. 2009 Sep;10(6):402-15. doi: 10.2174/138920209789177575. PMID: 20190955; PMCID: PMC2766791.
