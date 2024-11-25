@@ -1,0 +1,1 @@
+# Stochastic-Modelling-of-Translation-Mechanism-in-Eukaryotic-Cells
