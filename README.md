@@ -15,7 +15,7 @@ The genetic code's degeneracy allows multiple codons to encode the same amino ac
 Simulate Translation: Model the translation process, incorporating codon usage probabilities to generate mRNA sequences.
 Analyze Folding Outcomes: Assess the impact of rare codon frequency on protein folding, categorizing outcomes as properly folded, misfolded, or no protein produced.
 Optimize Parameters: Determine optimal sequence lengths and rare codon thresholds to predict folding outcomes accurately.
-#Methodology
+# Methodology
 
 # Codon Probability Matrix: Utilize empirical codon probabilities to reflect natural codon usage. These probabilities are normalized to sum to one, ensuring they represent valid probabilities.
 
@@ -31,7 +31,7 @@ Misfolded Protein: Sequence contains start and stop codons with rare codon frequ
 No Protein: Sequence lacks either start or stop codons.
 # Parameter Optimization: Conduct simulations across various sequence lengths and rare codon thresholds. Generate a 2D contour plot to visualize the relationship between these parameters and folding outcomes, aiding in identifying optimal conditions.
 
-#Considerations
+# Considerations
 
 Simplifications: The model does not account for factors like temperature, pH, or chaperone proteins, which also influence protein folding.
 Future Enhancements: Incorporating additional biological factors and refining the codon probability matrix with more comprehensive data could improve model accuracy.
