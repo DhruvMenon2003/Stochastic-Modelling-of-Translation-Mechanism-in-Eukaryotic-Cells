@@ -36,5 +36,7 @@ Simplifications: The model does not account for factors like temperature, pH, or
 Future Enhancements: Incorporating additional biological factors and refining the codon probability matrix with more comprehensive data could improve model accuracy.
 # References
 [1]Liu, Y. A code within the genetic code: codon usage regulates co-translational protein folding. Cell Commun Signal 18, 145 (2020). https://doi.org/10.1186/s12964-020-00642-6
-[2]https://iupred2a.elte.hu/ 
+#
+[2]https://iupred2a.elte.hu/
+#
 [3]Yoon BJ. Hidden Markov Models and their Applications in Biological Sequence Analysis. Curr Genomics. 2009 Sep;10(6):402-15. doi: 10.2174/138920209789177575. PMID: 20190955; PMCID: PMC2766791.
