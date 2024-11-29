@@ -29,6 +29,9 @@ Properly Folded Protein: Sequence contains start and stop codons with rare codon
 Misfolded Protein: Sequence contains start and stop codons with rare codon frequency above the threshold.
 No Protein: Sequence lacks either start or stop codons.
 # Parameter Optimization: Conduct simulations across various sequence lengths and rare codon thresholds. Generate a 2D contour plot to visualize the relationship between these parameters and folding outcomes, aiding in identifying optimal conditions.
+![image](https://github.com/user-attachments/assets/c9c4e127-138b-476f-9588-65bdfdc8120a)
+
+Validated FrQ Gene study 
 
 # Considerations
 
